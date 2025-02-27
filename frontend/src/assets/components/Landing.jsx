@@ -34,7 +34,7 @@ function Landing(){
                 <h1 className=" text-2xl">TODO</h1>
              </div>
              <ToDoHero todos_completed={todos_completed} total_todos={total_todos} />
-             <Form/>
+             <Form setTodos ={setTodos}/>
              <TodoList todos={todos}/>
         
         </div>
